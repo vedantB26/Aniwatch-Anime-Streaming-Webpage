@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./createacc.css">
+        <!-- GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+        <!-- OWL CAROUSEL -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+        <!-- BOX ICONS -->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+   <!-- NAV -->
+   <div class="nav-wrapper">
+    <div class="container">
+        <div class="nav">
+            <a href="#" class="logo">
+                <i class='bx bx-movie-play bx-tada main-color'></i>An<span class="main-color">i</span>Watch
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="../ani.html">Home</a></li>
+                <!-- <li><a href="#">Genre</a></li> -->
+                <li><a href="./ani.html#movies1">Movies</a></li>
+                <li><a href="./ani.html">Tv Series</a></li>
+                <!-- <li><a href="#">Top Airing</a></li> -->
+                <li><a href="./ani.html">About</a></li>
+                <li>
+                    <a href="#" class="btn btn-hover">
+                        <span>log in</span>
+                    </a>
+                </li>
+            </ul>
+            <!-- MOBILE MENU TOGGLE -->
+            <div class="hamburger-menu" id="hamburger-menu">
+                <div class="hamburger"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END NAV -->
+
+    <div class="signup-container">
+        <div class="signup-box">
+            <h1>Create an Account</h1>
+            <form action="/register" method="POST">
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Create a password" required>
+                </div>
+                <div class="input-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+                </div>
+                <!-- <button class="btn btn-hover" type="submit">
+                    <span>Sign Up</span>
+                </button> -->
+                <div class="pricing-box-action">
+                    <a href="../ani.html" class="btn btn-hover">
+                        <span>Sign Up</span>
+                    </a>
+                </div>
+                <div class="extra-links">
+                    <p>Already have an account? <a href="./login.html">Log In</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
